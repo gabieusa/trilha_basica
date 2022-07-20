@@ -1,8 +1,8 @@
 // Função para somar 4 valores
 
-function somar(a, b,c,d, soma) {
+function somar(a, b,c,d) {
 	
-	return a + b + c + d + soma;
+	return a + b + c + d;
 }
 
 
