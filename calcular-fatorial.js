@@ -1,19 +1,12 @@
-var fatorial=1;
-// 5! 5*4*3*2*1 = 120
-var explicaFator = '';
-var num = parseInt(prompt("Digite um número inteiro para calcular o fatorial: "));
-for(var x = 1; x <= num; x++)
-//for(var i = 0; i <= num; i++)
-{
-    fatorial = fatorial*x;
-    if(explicaFator != ''){
-      explicaFator += 'x';
-    }
-    explicaFator += x;
-    
+function Fatorial(x){
+if (x == 0)
+    return 1;
+else
+    return x * Fatorial(x-1);
 }
-document.write(num+"! = "+explicaFator+" = "+fatorial);
 
 
-Nesse link:  https://codepen.io/
-Testar o código
+console.log("Resultado da funcao Fatorial: ", Fatorial(5));
+
+var resultado = Fatorial(5); // 120
+//5! 5 x 4 x 3 x 2 x 1 =  120
