@@ -8,4 +8,5 @@ function algoritmo()
         alert('Negativo');
     if(um_numero==0)
         alert('Neutro');
+    console.log("Nem positivo nem negativo, zero");
 }
