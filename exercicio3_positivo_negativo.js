@@ -1,3 +1,4 @@
+//Leia um número e informe se o mesmo é positivo, negativo ou zero.
 function algoritmo()
 {
     let um_numero;
