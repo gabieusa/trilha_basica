@@ -3,4 +3,4 @@ var a = 15;
 var b = 5;
 var res = a%b;
 var quo = (a-res)/b;
-console.log("Quociente = ", quo ,"Restante = ", res);
+console.log("Quociente = " + quo +" Restante = " + res);
