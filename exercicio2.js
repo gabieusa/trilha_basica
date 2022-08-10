@@ -13,4 +13,14 @@ if(num2 > maior){
  } if(num4 > maior){
       maior = num4;
  }      
-     console.log("Maior: "+maior); 
+ 
+ var maior1 = num1;
+
+if(num2 => maior){
+      maior = num2;
+ } if(num3 => maior){
+      maior = num3;
+ } if(num4 => maior){
+      maior = num4;
+ }      
+     console.log("Maior: ", +maior +maior1); 
