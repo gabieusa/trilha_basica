@@ -1,22 +1,14 @@
 //Função 4 números somar os 2 maiores
-var numeros = [
-  300, //1
-  500, //2
-  1500, //3
-  100, //4
-];
+var num1 = 10;
+var num2 = 5; 
+var num3 = 2;
 
-var maiorNumero = 0;
+var maior = num1;
 
-for(var i = 0, i < numeros.lenght; i++){
- var numero = numeros [i];
-  
-  for (numero > maiorNumero){
-    maiorNumero = numero;
-  
-}  
-
-}
-
-console.log(maiorNum);
-
+if(num2 > maior){
+      maior = num2;
+ } if(num3 > maior){
+      maior = num3;
+ }
+     console.log("Maior: "+maior);
+     
