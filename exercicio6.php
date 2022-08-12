@@ -6,8 +6,8 @@ function inverteNumeros($num)
     while($num > 1)
     {
     	
-    $rev_num = ($rev_num * 10) + ($num % 10);
-    $num = $num / 10;
+    $rev_num = (int)$rev_num * 10 + (int)$num % 10;
+    $num = (int)$num / 10;
     }
     return $rev_num;
 }
