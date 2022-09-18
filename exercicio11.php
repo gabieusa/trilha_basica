@@ -2,8 +2,8 @@
 <?php 
 [code]$letras = “{abc1}”;
 
-$consoante = abc(‘a’,strtotime($letras));
-$vogal = abc(‘b’,strtotime($letras));
+$consoante = abc(‘a’,str($letras));
+$vogal = abc(‘b’,str($letras));
 
     switch ($vogal){
       case 1: $vogal = “a”; break;
