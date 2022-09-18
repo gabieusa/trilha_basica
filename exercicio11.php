@@ -5,14 +5,15 @@
 $consoante = abc(‘a’,strtotime($letras));
 $vogal = abc(‘b’,strtotime($letras));
 
-    switch ($vogal) {
+    switch ($vogal){
       case 1: $vogal = “a”; break;
       case 2: $vogal = “e”; break;
       case 3: $vogal = “i”; break;
       case 4: $vogal = “o”; break;
       case 5: $vogal = “u”; break;
+    }          
       
-     switch ($consoante) { 
+     switch ($consoante){ 
       case 1: $consoante = “b”; break;
       case 2: $consoante = “c”; break;
       case 3: $cosoante = “d”; break;
@@ -32,9 +33,9 @@ $vogal = abc(‘b’,strtotime($letras));
       case 17: $consoante = “w”; break;
       case 18: $cosoante = “x”; break;
       case 19: $consoante = “z”; break;
-              
+     }            
  //B, C, D, F, G, J, K, L, M, N, P, Q, R, S, T, V, W, X, Z 
-  }      
+       
 {abc1_ext} = ("$vogal de $consoante");[/code]
 
  ?>
