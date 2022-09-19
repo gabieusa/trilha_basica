@@ -1,5 +1,5 @@
-//Leia uma letra e mostre se ela é vogal ou consoante.
 <?php
+//Leia uma letra e mostre se ela é vogal ou consoante.
 function lerLetra() {
     echo ("Introduza uma letra: ");
 }
@@ -16,16 +16,19 @@ function isVogal($caracter) {
         case "O":
         case "u":
         case "U": 
-            echo true;
+            return true;
         default:
-            echo false;
+            return false;
     }
 }
 
  $letra = lerLetra();
-if (isVogal($letra)) echo("A letra é vogal");
-else echo("A letra é consoante");
-?>
+ $letra = "W";
+if (isVogal($letra)) {
+    echo("A letra é vogal");
+    return;
+} 
+echo("A letra é consoante")
 
 
 //function vogalouconsoante($x)
@@ -33,10 +36,12 @@ else echo("A letra é consoante");
  //   if ($x == 'a' || $x == 'e' ||
  //       $x == 'i' || $x == 'o' ||
  //       $x == 'u')
-        echo "vogal" . "\n";
+        //echo "vogal" . "\n";//
  //   else
  //       echo "consoante" . "\n";
 //}
  
 //vogalouconsoante('c');
 //vogalouconsoante('e');
+?>
+
