@@ -6,7 +6,7 @@ ele for divisível por 400, ele volta a ser bissexto.
 function verificaAnoBissexto(int $ano)
             {
                 if (($ano % 4) == 0 && ($ano % 100) <> 0) {
-                    echo "O ano de $year é BISSEXTO. <br>";
+                    echo "O ano de $ano é BISSEXTO. <br>";
                 } elseif ($ano % 400 == 0) {
                     echo  "O ano de $ano é BISSEXTO. <br>";
                 } else {
