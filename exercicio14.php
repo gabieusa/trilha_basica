@@ -3,12 +3,11 @@ soma de todos eles.
 
 <?php
 
-$numero = 0;
-$resultado = [];
-
-for($i = ($numero+1);$i <= 100;$i++){
-$resultado[] += $i;
+$soma = 0;
+for ($i = 1; $i <= 100; $i++) {
+    echo $i . "\n";
+    $soma += $i;
 }
+echo "Soma de todos os números: " . $soma . "\n";
 
-print_r($resultado);
-  ?>
+?>
